@@ -1,4 +1,8 @@
 # React, Redux and UPort Authentication Truffle Box
+![](https://img.shields.io/chrome-web-store/v/:storeId.svg)
+![](https://img.shields.io/github/manifest-json/v/:user/:repo.svg)
+![](https://img.shields.io/npm/v/npm/next.svg)
+![](https://img.shields.io/vscode-marketplace/v/:repo.svg)
 
 In addition to Webpack and React, this box adds: react-router, redux and redux-auth-wrapper for authentication powered by UPort. The easiest way to get started with UPort.
 
@@ -50,21 +54,3 @@ In addition to Webpack and React, this box adds: react-router, redux and redux-a
     ```javascript
     npm run build
     ```
-
-## FAQ
-
-* __How do I use this with the EthereumJS TestRPC?__
-
-    It's as easy as modifying the config file! [Check out our documentation on adding network configurations](http://truffleframework.com/docs/advanced/configuration#networks).
-
-* __Why is there both a truffle.js file and a truffle-config.js file?__
-
-    `truffle-config.js` is a copy of `truffle.js` for compatibility with Windows development environments. Feel free to it if it's irrelevant to your platform.
-
-* __Where is my production build?__
-
-    The production build will be in the build_webpack folder. This is because Truffle outputs contract compilations to the build folder.
-
-* __Where can I find more documentation?__
-
-    This box is a marriage of [Truffle](http://truffleframework.com/) and a React setup created with [create-react-app](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md). Either one would be a great place to start!
